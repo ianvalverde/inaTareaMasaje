@@ -72,50 +72,20 @@ nav ul li a{
 
 /* end header*/
 
-#container aside{
+#menuCare {
+  text-align: center;
   float: left;
-  width: 30%;
-  margin: 0 3% 0 0;
 }
-
-#container aside ul li {
-  list-style-type: none;
-}
-
-#container aside ul li a{
-  height: 50px;
-  background: #EEEEEE;
-  display: block;
-  width: 100%;
-  border-bottom: 1px solid black;
-  margin: 0 0 5px 0;
-  text-decoration: none;
-  color: #000;
-}
-
-#container aside ul li a:hover{
-  background:red;
-}
-
-#container article{
+#menuCare h3 {
+  width: 150px;
+  height: 130px;
+  margin: 20px 5px 40px 5px;
+  padding: 10px;
+  background-color: #cdeb8e;
   float: left;
-  width: 67%
 }
-
-#container article h3, #container article h2{
-  float: left;
-  vertical-align: text-bottom;
-}
-#container article h3{
-  padding: 5px;
-}
-#container article p{
-  clear: both;
-}
-#container aside img {
-  width: 90%;
-  height: 40%;
-  margin: 0 0 0 10px;
+h2 {
+  clear: left;
 }
 /*end container*/
 footer {
