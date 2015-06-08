@@ -1,0 +1,131 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+#wrapper{
+
+  margin: 0 auto;
+
+  width: 900px;
+}
+
+header, #container, footer{
+  float: left;
+  width:100%;
+}
+
+header{
+  border-top:1px solid black;
+  margin: 10px 0 0 0;
+}
+
+header h1 a{
+  text-indent: -9999px;
+  width: 200px;
+  height: 150px;
+  clear:none;
+  float: left;
+  background-image: url("http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg");
+  background-position: 10px 0;
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+nav{
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  list-style-type: none;
+}
+
+nav ul li a{
+  margin: 0 5px;
+  text-decoration: none;
+    color: lightblue;
+
+}
+
+/* end header*/
+
+#container aside{
+  float: left;
+  width: 30%;
+  margin: 0 3% 0 0;
+}
+
+#container aside ul li {
+  list-style-type: none;
+}
+
+#container aside ul li a{
+  height: 50px;
+  background: #EEEEEE;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin: 0 0 5px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+#container aside ul li a:hover{
+  background:red;
+}
+
+#container article{
+  float: left;
+  width: 67%
+}
+
+#container article h3, #container article h2{
+  float: left;
+  vertical-align: text-bottom;
+}
+#container article h3{
+  padding: 5px;
+}
+#container article p{
+  clear: both;
+}
+#container aside img {
+  width: 90%;
+  height: 40%;
+  margin: 0 0 0 10px;
+}
+/*end container*/
+footer {
+  margin: 10px 0px 0px 10px;
+  border-top: 1px solid #000
+}
+footer p{
+  clear: none;
+  float: left;
+}
+
+
+
