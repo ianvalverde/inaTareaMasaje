@@ -31,93 +31,46 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="shortcut icon" type="imagen/x-icon" href="img/mandala.jpg">
   <!--Script-->
-  <script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
-  <script src="js/jcarousellite_1.0.1c5.js" type="text/javascript"></script>
-  <script type="text/javascript">
-
-  $(function() {
-    $("#slidebox").jCarouselLite({
-      vertical: false,
-      hoverPause:true,
-      btnPrev: ".previous",
-      btnNext: ".next",
-      visible: 1,
-      start: 0,
-      scroll: 1,
-      circular: true,
-      auto:1000,
-      speed:500,        
-      btnGo:
-          [".1", ".2",
-          ".3", ".4"],
-      
-      afterEnd: function(a, to, btnGo) {
-          if(btnGo.length <= to){
-            to = 0;
-          }
-          $(".thumbActive").removeClass("thumbActive");
-          $(btnGo[to]).addClass("thumbActive");
-          }
-    });
-  });
-  </script>
-
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div id="wrapper">
-    <header>
+  <header>
     <h1><a href="index.html">Spa y Cuidado de la Piel</a></h1>
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="masajes.html">Tipos de Masajes</a></li>
+        <li><a href="masajes.html">Tipos Masajes</a></li>
         <li><a href="tratamiento.html">Tratamientos</a></li>
         <li><a href="reservaciones.html">Reservaciones</a></li>
         <li><a href="contacto.html">Contactenos</a></li>
       </ul>
     </nav>
   </header>
-  <div id="container">
-    <div id="slidebox">
-      <div class="thumbs">
-        <a href="#" onClick="" class="1 thumbActive">1</a> 
-        <a href="#" onClick="" class="2">2</a> 
-        <a href="#" onClick="" class="3 ">3</a> 
-        <a href="#" onClick="" class="4">4</a> 
-      </div>
-        <ul>
-            <li><img src="img/chocoterapia 1.jpg"></li>
-            <li><img src="img/masaje_relajacion_g.jpg"></li>
-            <li><img src="img/MASAJE CON PIEDRAS.jpg"></li>
-            <li><img src="img/DEPILACION CERA.jpg"></li>
-        </ul>
+  <div id="masajes">
+    <div class="tiposMasajes">
+      <h2>Tenemos a nuestro servicio diferentes tipos de masajes tales como:</h2>
+      <p><strong>Masajes de Relajación: </strong></p>
+      <p>Son técnicas suaves, que estimulan la relajación. La presión que se utiliza es suave y las técnicas más utilizadas son los deslizamientos. Se pueden realizar en todo el cuerpo hasta en el rostro y cuero cabelludo.</p>
+      <img src="img/masaje_relajacion_g.jpg">
     </div>
-      <article>
-        <div id="menuCare">
-          <h3>Cuidado de la Cara</h3>
-          <h3>Cuidado de Manos</h3>
-          <h3>Cuidado de Pies</h3>
-        </div>
-        <h2>Nuestro Spa es la mejor elección para el tratamiento y cuidado de su piel. Le ofrecemos masajes de Chocoterapia, cuidado de rostro, manos y pies, depilación con cera y mucho más.<br><br>
-        Contactenos y con gusto le atenderemos ó mandenos un mensaje para reservaciones.</h2>
-      </article>
-      <article>
-        <div id="dep">
-          <p>Depilación</p>
-          <img src="img/DEPILACION 2.jpg">
-        </div>
-        <div id="choco">
-          <img src="img/chocoterapia2.jpg">
-          <p>Chocoterapia</p>
-        </div>
-        <div id="masajeRed">
-          <p>Masajes Reductivo</p>
-          <img src="img/MASAJE REDUCTIVO 1.jpg">
-        </div>
-      </article>
+    <div class="tiposMasajes">
+      <p><strong>Masaje Descontracturante: </strong></p>
+      <p>Técnica más violenta que tiene como objetivo descontracturar la musculatura. Es ideal realizarlo en zonas donde hay contracturas. Se acompañan de elongaciones y estiramientos. Puede ser mas doloroso y no tan relajante.</p>
+      <img src="img/masaje-descontracturante.jpg">
+    </div>
+    <div class="tiposMasajes">
+      <p><strong>Masaje Deportivo: </strong></p>
+      <p>Es un masaje que se utiliza después de competencias deportivas para generar una relajación de la musculatura sobre todo de piernas, son movimientos rápidos. Se puede acompañar de técnicas de elongación y descontracturantes.</p>
+      <img src="img/masaje-deportivo.jpg">
+    </div>
+    <div class="tiposMasajes">
+      <p><strong>Masaje con Piedras Calientes: </strong></p>
+      <p>Técnica de masaje que se acompaña de piedras especiales que se calientan previamente y ayudan a relajar la musculatura por el calor que irradian. Se pueden utilizar en maniobras o poner las piedras sobre puntos específicos del cuerpo.</p>
+      <img src="img/MASAJE CON PIEDRAS.jpg">
+    </div>
   </div>
   <footer>
     <p>Teléfono: 2234-8710 / 8677-3390<br>&#169; Derechos Reservados - Ian Valverde Barrantes<br>Desarrollador - Ian Valverde Barrantes</p>

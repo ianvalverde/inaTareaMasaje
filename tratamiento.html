@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="es">
 <meta charset="UTF-8">
 <meta name="description" content="tarea del INA">
@@ -31,37 +30,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="shortcut icon" type="imagen/x-icon" href="img/mandala.jpg">
   <!--Script-->
-  <script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
-  <script src="js/jcarousellite_1.0.1c5.js" type="text/javascript"></script>
-  <script type="text/javascript">
-
-  $(function() {
-    $("#slidebox").jCarouselLite({
-      vertical: false,
-      hoverPause:true,
-      btnPrev: ".previous",
-      btnNext: ".next",
-      visible: 1,
-      start: 0,
-      scroll: 1,
-      circular: true,
-      auto:1000,
-      speed:500,        
-      btnGo:
-          [".1", ".2",
-          ".3", ".4"],
-      
-      afterEnd: function(a, to, btnGo) {
-          if(btnGo.length <= to){
-            to = 0;
-          }
-          $(".thumbActive").removeClass("thumbActive");
-          $(btnGo[to]).addClass("thumbActive");
-          }
-    });
-  });
-  </script>
-
 </head>
 <body>
 
@@ -80,44 +48,23 @@
       </ul>
     </nav>
   </header>
-  <div id="container">
-    <div id="slidebox">
-      <div class="thumbs">
-        <a href="#" onClick="" class="1 thumbActive">1</a> 
-        <a href="#" onClick="" class="2">2</a> 
-        <a href="#" onClick="" class="3 ">3</a> 
-        <a href="#" onClick="" class="4">4</a> 
-      </div>
-        <ul>
-            <li><img src="img/chocoterapia 1.jpg"></li>
-            <li><img src="img/masaje_relajacion_g.jpg"></li>
-            <li><img src="img/MASAJE CON PIEDRAS.jpg"></li>
-            <li><img src="img/DEPILACION CERA.jpg"></li>
-        </ul>
+  <div id="tratamiento">
+    <div class="terapia">
+      <h2>Terapia Reductora</h2>
+      <p>Es un tratamiento natural que consiste en ablandar, remover y disolver la grasa dura adherida a la piel y compactadas a los músculos, por medio de estimulación acupuntural, en trayectos específicos abdominales que permiten la ruptura del adipocito (célula grasa), este rocedimiento se realiza con equipos especiales que emiten impulsos electromagnéticos para obtener el resultado ya mencionado.</p>
+      <img src="img/MASAJE REDUCTIVO 1.jpg">
     </div>
-      <article>
-        <div id="menuCare">
-          <h3>Cuidado de la Cara</h3>
-          <h3>Cuidado de Manos</h3>
-          <h3>Cuidado de Pies</h3>
-        </div>
-        <h2>Nuestro Spa es la mejor elección para el tratamiento y cuidado de su piel. Le ofrecemos masajes de Chocoterapia, cuidado de rostro, manos y pies, depilación con cera y mucho más.<br><br>
-        Contactenos y con gusto le atenderemos ó mandenos un mensaje para reservaciones.</h2>
-      </article>
-      <article>
-        <div id="dep">
-          <p>Depilación</p>
-          <img src="img/DEPILACION 2.jpg">
-        </div>
-        <div id="choco">
-          <img src="img/chocoterapia2.jpg">
-          <p>Chocoterapia</p>
-        </div>
-        <div id="masajeRed">
-          <p>Masajes Reductivo</p>
-          <img src="img/MASAJE REDUCTIVO 1.jpg">
-        </div>
-      </article>
+    <div class="terapia">
+      <h2>Geoterapia</h2>
+      <p>Es un masaje que drena el líquido acumulado en los miembros inferiores, sobre todo las piernas, y estos líquidos contribuye al aumento de la celulitis y la hinchazón y con suave y delicada y muy sabroso, que maniobra elimina nodos ubicados en ingle, axila, pierna, ya que bombea toxinas y el agua acumulada pueda salir con facilidad, que alivia el peso de las piernas y los pies y trata y previene un aspecto de las ondas de la celulitis, también se utiliza para combatir la hinchazón causada por la cirugía plástica </p>
+      <img src="img/geoterapia.jpg">
+    </div>
+    <div class="terapia">
+      <h2>Hidratación Facial</h2>
+      <p>El tratamiento hidratante que realizamos, tiene 3 propiedades importantes:
+      Utiliza aguas milenarias, provenientes de glaciares de la zona austral de Chile, produce una hidratación a 3 niveles: profundo, medio y superficial, con el objetivo de regular y equilibrar el contenido acuoso de la piel, incrementa los reservatorios de agua en la piel en condiciones extremas de temperatura.</p>
+      <img src="img/FACIAL-IN-PHUKET.jpg">
+    </div>
   </div>
   <footer>
     <p>Teléfono: 2234-8710 / 8677-3390<br>&#169; Derechos Reservados - Ian Valverde Barrantes<br>Desarrollador - Ian Valverde Barrantes</p>
